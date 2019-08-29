@@ -142,7 +142,7 @@ Sometimes, your on-premises AD UPNs could be different from your Azure AD UPNs. 
 - Routable UPN: A routable UPN has a valid verified domain, that is registered with a domain registrar. For example, if contoso.com is the primary domain in Azure AD, contoso.org is the primary domain in on-premises AD owned by Contoso and [verified in Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/add-custom-domain)
 - Non-routable UPN: A non-routable UPN does not have a verified domain. It is applicable only within your organization's private network. For example, if contoso.com is the primary domain in Azure AD, contoso.local is the primary domain in on-premises AD but is not a verifiable domain in the internet and only used within Contoso's network.
 
-The table below provides details on support for these on-premises AD UPNs in Windows 10 Hybrid Azure AD join
+The table below provides details on support for these on-premises AD UPNs in Windows 10 Hybrid Azure AD join when the AD UPN differs from the Azure AD UPN
 
 | Type of on-premises AD UPN | Domain type | Windows 10 version | Description |
 | ----- | ----- | ----- | ----- |
